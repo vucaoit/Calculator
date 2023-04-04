@@ -11,6 +11,7 @@
 		9D18B90329DBC07D0005D44C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18B90229DBC07D0005D44C /* ContentView.swift */; };
 		9D18B90529DBC0830005D44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D18B90429DBC0830005D44C /* Assets.xcassets */; };
 		9D18B90829DBC0830005D44C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D18B90729DBC0830005D44C /* Preview Assets.xcassets */; };
+		9D32A17B29DC1E4600CBD512 /* FormHiddenBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32A17A29DC1E4600CBD512 /* FormHiddenBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		9D18B90229DBC07D0005D44C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D18B90429DBC0830005D44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D18B90729DBC0830005D44C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9D32A17A29DC1E4600CBD512 /* FormHiddenBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormHiddenBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,7 @@
 		9D18B8F429DBC07D0005D44C = {
 			isa = PBXGroup;
 			children = (
-				9D18B8FF29DBC07D0005D44C /* Project 1 */,
+				9D18B8FF29DBC07D0005D44C /* WeSplit */,
 				9D18B8FE29DBC07D0005D44C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,15 +50,16 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9D18B8FF29DBC07D0005D44C /* Project 1 */ = {
+		9D18B8FF29DBC07D0005D44C /* WeSplit */ = {
 			isa = PBXGroup;
 			children = (
+				9D32A17C29DC285400CBD512 /* custom */,
 				9D18B90029DBC07D0005D44C /* WeSplitApp.swift */,
 				9D18B90229DBC07D0005D44C /* ContentView.swift */,
 				9D18B90429DBC0830005D44C /* Assets.xcassets */,
 				9D18B90629DBC0830005D44C /* Preview Content */,
 			);
-			path = "Project 1";
+			path = WeSplit;
 			sourceTree = "<group>";
 		};
 		9D18B90629DBC0830005D44C /* Preview Content */ = {
@@ -65,6 +68,14 @@
 				9D18B90729DBC0830005D44C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9D32A17C29DC285400CBD512 /* custom */ = {
+			isa = PBXGroup;
+			children = (
+				9D32A17A29DC1E4600CBD512 /* FormHiddenBackground.swift */,
+			);
+			path = custom;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				9D18B90329DBC07D0005D44C /* ContentView.swift in Sources */,
 				9D18B90129DBC07D0005D44C /* WeSplitApp.swift in Sources */,
+				9D32A17B29DC1E4600CBD512 /* FormHiddenBackground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +278,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project 1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,7 +307,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Project 1/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"WeSplit/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
