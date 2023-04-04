@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9D18B90129DBC07D0005D44C /* Project_1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18B90029DBC07D0005D44C /* Project_1App.swift */; };
+		9D18B90129DBC07D0005D44C /* WeSplitApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18B90029DBC07D0005D44C /* WeSplitApp.swift */; };
 		9D18B90329DBC07D0005D44C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D18B90229DBC07D0005D44C /* ContentView.swift */; };
 		9D18B90529DBC0830005D44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D18B90429DBC0830005D44C /* Assets.xcassets */; };
 		9D18B90829DBC0830005D44C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D18B90729DBC0830005D44C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9D18B8FD29DBC07D0005D44C /* Project 1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D18B90029DBC07D0005D44C /* Project_1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_1App.swift; sourceTree = "<group>"; };
+		9D18B8FD29DBC07D0005D44C /* We Split.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Split.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D18B90029DBC07D0005D44C /* WeSplitApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeSplitApp.swift; sourceTree = "<group>"; };
 		9D18B90229DBC07D0005D44C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9D18B90429DBC0830005D44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D18B90729DBC0830005D44C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		9D18B8FE29DBC07D0005D44C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9D18B8FD29DBC07D0005D44C /* Project 1.app */,
+				9D18B8FD29DBC07D0005D44C /* We Split.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,7 +51,7 @@
 		9D18B8FF29DBC07D0005D44C /* Project 1 */ = {
 			isa = PBXGroup;
 			children = (
-				9D18B90029DBC07D0005D44C /* Project_1App.swift */,
+				9D18B90029DBC07D0005D44C /* WeSplitApp.swift */,
 				9D18B90229DBC07D0005D44C /* ContentView.swift */,
 				9D18B90429DBC0830005D44C /* Assets.xcassets */,
 				9D18B90629DBC0830005D44C /* Preview Content */,
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9D18B8FC29DBC07D0005D44C /* Project 1 */ = {
+		9D18B8FC29DBC07D0005D44C /* We Split */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9D18B90B29DBC0830005D44C /* Build configuration list for PBXNativeTarget "Project 1" */;
+			buildConfigurationList = 9D18B90B29DBC0830005D44C /* Build configuration list for PBXNativeTarget "We Split" */;
 			buildPhases = (
 				9D18B8F929DBC07D0005D44C /* Sources */,
 				9D18B8FA29DBC07D0005D44C /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = "Project 1";
+			name = "We Split";
 			productName = "Project 1";
-			productReference = 9D18B8FD29DBC07D0005D44C /* Project 1.app */;
+			productReference = 9D18B8FD29DBC07D0005D44C /* We Split.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9D18B8F829DBC07D0005D44C /* Build configuration list for PBXProject "Project 1" */;
+			buildConfigurationList = 9D18B8F829DBC07D0005D44C /* Build configuration list for PBXProject "We Split" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9D18B8FC29DBC07D0005D44C /* Project 1 */,
+				9D18B8FC29DBC07D0005D44C /* We Split */,
 			);
 		};
 /* End PBXProject section */
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D18B90329DBC07D0005D44C /* ContentView.swift in Sources */,
-				9D18B90129DBC07D0005D44C /* Project_1App.swift in Sources */,
+				9D18B90129DBC07D0005D44C /* WeSplitApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +274,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +303,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,7 +320,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9D18B8F829DBC07D0005D44C /* Build configuration list for PBXProject "Project 1" */ = {
+		9D18B8F829DBC07D0005D44C /* Build configuration list for PBXProject "We Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D18B90929DBC0830005D44C /* Debug */,
@@ -327,7 +329,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9D18B90B29DBC0830005D44C /* Build configuration list for PBXNativeTarget "Project 1" */ = {
+		9D18B90B29DBC0830005D44C /* Build configuration list for PBXNativeTarget "We Split" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9D18B90C29DBC0830005D44C /* Debug */,
